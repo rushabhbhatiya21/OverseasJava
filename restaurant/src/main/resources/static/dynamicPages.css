@@ -1,0 +1,48 @@
+.dynamic-main-div {
+    margin: 30px;
+}
+
+.padding-md-top {
+    padding-top: 50px;
+}
+
+.padding-sm-bot {
+    margin-bottom: 20px;
+}
+
+.save-btn-div {
+    padding-top: 50px;
+    margin: 30px;
+}
+
+#displayTableContainer {
+    padding-top: 70px;
+}
+
+.myTable {
+    min-height: 40%;
+}
+
+.myTable tr {
+    vertical-align: middle;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+}
+
+#productTable img {
+    width: 75px;
+    height: 75px;
+}
+
+.topWithButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}

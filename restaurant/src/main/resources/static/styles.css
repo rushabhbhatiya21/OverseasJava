@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    z-index: 100;
+
+    box-shadow: 20vw 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.h1-font-size {
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.margin-sm-right {
+    margin-right: 16px;
+}
+
+.padding-sm-right {
+    padding-right: 30px;
+}
+.top-left {
+    display: flex;
+    align-items: center;
+}
+.top-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    margin-right: 20px;
+}
+.food-order-img {
+    margin-left: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.profile-img {
+    height: 70px;
+    width: 70px;
+}
+
+.main-cont {
+    height: 92vh;
+    display: flex;
+}
+
+.main-left-cont .main-right-cont {
+    height: 100%;
+}
+
+.main-left-cont {
+    width: 20%;
+    box-shadow: 10px 18px 30px 0 rgba(0, 0, 0, 0.2);
+    /*0 0 20 -2*/
+    z-index: 10;
+}
+
+.main-right-cont {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-left-headers {
+    display: flex;
+    background-color: #f5f8fa;
+    color: rgba(55, 55, 243, 0.76);
+    height: 70px;
+    align-items: center;
+
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-left-header-card {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* Add hover effect to each card */
+.main-left-content-card:hover {
+    background-color: #f0f0f0; /* Change to your desired hover background color */
+    cursor: pointer;
+}
+
+/* Highlight the clicked card */
+.main-left-content-card.active {
+    background-color: #b8daff; /* Change to your desired clicked background color */
+}
+
+/* Additional styling for better visual effect on hover and active */
+.main-left-content-card:hover .main-left-content-card-left {
+    color: #007bff; /* Change to your desired hover text color */
+}
+
+.main-left-content-card.active .main-left-content-card-left {
+    color: #0056b3; /* Change to your desired clicked text color */
+}
+
+
+.main-left-cont i {
+    text-align: center;
+    font-size: 16px;
+    width: 16px;
+    max-width: 16px;
+}
+
+.main-left-content-card {
+    display: flex;
+    color: #6d6d73;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-left-content-card-left {
+    display: flex;
+    /*color: #6d6d73;*/
+    /*height: 50px;*/
+    align-items: center;
+    padding-left: 40px;
+}
+
+.main-left-content-card-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 20px;
+}
+
+.dynamic-content {
+    width: 92%;
+    min-height: 40%;
+    max-height: 80%;
+    overflow: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+#logout {
+    cursor: pointer;
+}
